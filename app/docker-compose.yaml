@@ -4,4 +4,4 @@ services:
   backend:
     image: edgaregonzalez/educacionit-todolist:v0.0.1
     ports:
-      - "5500:5500"
+      - "5000:5000"

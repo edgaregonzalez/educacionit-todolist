@@ -134,4 +134,4 @@ if __name__ == '__main__':
         get_db()
     # Run on localhost, port 5000
     # Use host='0.0.0.0' to make it accessible on your network
-    app.run(debug=True, host='0.0.0.0', port=5500)
+    app.run(debug=True, host='0.0.0.0', port=5000)
