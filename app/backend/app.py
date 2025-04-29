@@ -132,6 +132,6 @@ if __name__ == '__main__':
     # Ensure the database and table exist before starting
     with app.app_context():
         get_db()
-    # Run on localhost, port 5000
+    # Run on localhost, port 5050
     # Use host='0.0.0.0' to make it accessible on your network
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5050)
