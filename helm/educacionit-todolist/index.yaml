@@ -2,11 +2,11 @@ apiVersion: v1
 entries:
   educacionit-todolist:
   - apiVersion: v2
-    appVersion: 0.0.2
-    created: "2025-04-29T20:53:43.975459-03:00"
+    appVersion: 0.0.4
+    created: "2025-04-29T20:58:17.681598-03:00"
     description: Esta es una aplicacion de dos capas para usarlo como ejemplo en nuestro
       bootcamp.
-    digest: f35e015c86df39587ec842a00e4cc2399056915ed936e5161553c11c2e739b6a
+    digest: eb963d2d1a9619cd3f97e69b10eff855248750877d5e64081779c21c9e2658ea
     name: educacionit-todolist
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-29T20:53:43.974706-03:00"
+    created: "2025-04-29T20:58:17.680909-03:00"
     description: Esta es una aplicacion de dos capas para usarlo como ejemplo en nuestro
       bootcamp.
     digest: 9d6dbeccdf17c7591b31e8c1acf354db88d852b7b47998b22634d90a27f3eb21
@@ -23,4 +23,4 @@ entries:
     urls:
     - charts/educacionit-todolist-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-29T20:53:43.972448-03:00"
+generated: "2025-04-29T20:58:17.680117-03:00"
