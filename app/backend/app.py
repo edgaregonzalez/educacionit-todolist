@@ -13,7 +13,7 @@ def get_db():
     """
     conn = sqlite3.connect(DATABASE)
     conn.row_factory = sqlite3.Row # Return rows as dictionary-like objects
-    # Create table if it doesn't exist
+    # Create table if it doesn't exist.
     conn.execute('''
         CREATE TABLE IF NOT EXISTS tasks (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
