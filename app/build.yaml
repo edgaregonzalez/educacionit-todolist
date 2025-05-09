@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  backend:
+    image: edgaregonzalez/educacionit-todolist:v0.0.1
+    ports:
+      - "5050:5050"
+  frontend:
+    image: edgaregonzalez/educacionit-todolist-fe:v0.0.1
+    ports:
+      - "80:80"
